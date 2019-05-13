@@ -137,7 +137,7 @@ function isEqual(first, second){
   if (first === second){
     return 'You look mahvelous!'
   }else{
-    return 'I don\'t n know who you are anymore.'
+    return 'I don\'t know who you are anymore.'
   }
 }
 
@@ -156,6 +156,15 @@ console.log(isEqual(5, 6));
  * Console.log your result.
 */
 
+function notEqual(first, second){
+  if (first !== second){
+    return 'Opposites do attract!'
+  }else{
+    return 'Cause it\'s like you\'re my mirror.'
+  }
+}
+
+console.log(notEqual(3, 6));
 
 /*
  * #8
