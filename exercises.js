@@ -178,7 +178,15 @@ console.log(notEqual(3, 6));
  * Console.log your result.
 */ 
 
+function spareChange(money){
+  if (money > 100){
+    return true;
+  }else{
+    return false;
+  }
+}
 
+console.log(spareChange(132));
 
 /*
  * #9
@@ -194,7 +202,16 @@ console.log(notEqual(3, 6));
  * Console.log your result.
 */ 
 
+function dirty30(one, two, three){
+  var sum = one + two + three;
+  if (sum > 30){
+    return true;
+  }else{
+    return false;
+  }
+}
 
+console.log(dirty30(15, 3, 89));
 
 /*
  * #10
