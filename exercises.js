@@ -271,7 +271,15 @@ console.log(daClub(19, 34));
  * Console.log your result.
 */ 
 
+function graduation(credits, grades){
+  if (credits > 120 || grades > 2.0){
+    return 'Congratulations on a job well done.'
+  }else{
+    return 'See ya in summer school.'
+  }
+}
 
+console.log(graduation(131, 3.5));
 
 /*
  * #13
