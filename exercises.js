@@ -57,7 +57,7 @@ function login(password){
   }
 }
 
-login(test1234);
+console.log(login('test1234'));
 
 /*
  * #3
@@ -72,7 +72,13 @@ login(test1234);
  * Console.log your result.
 */
 
+function isGreaterThan(first, second){
+  if (first > second){
+    return true;
+  }
+}
 
+console.log(isGreaterThan(5 , 2));
 
 /*
  * #4
