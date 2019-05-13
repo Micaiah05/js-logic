@@ -133,6 +133,15 @@ console.log(bigBird('eat'));
  * Console.log your result.
 */
 
+function isEqual(first, second){
+  if (first === second){
+    return 'You look mahvelous!'
+  }else{
+    return 'I don\'t n know who you are anymore.'
+  }
+}
+
+console.log(isEqual(5, 6));
 
 /*
  * #7
