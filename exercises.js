@@ -11,8 +11,6 @@ if(today === "Friday"){
 If/else statements = Evaluates (or checks) a condition. If the condition is true, the first code block is executed. If the condition is false, the second code block is executed instead.
 */
 
-console.log('test');
-
 /*if(today === "Friday"){
   return "Let's Party!";
 }else{
@@ -324,8 +322,10 @@ var doughnutPrice = 2;
 var doughnutBought = 0;
 
 function buyDoughnut(){
-  budget -= doughnutPrice;
-  doughnutBought += 1;
+  if (budget >= doughnutPrice){
+    budget -= doughnutPrice;
+    doughnutBought += 1;
+  }
 }
 
 buyDoughnut();
@@ -366,6 +366,9 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 5"
 */
 
+for (var i = 1; i < 6; i++){
+  console.log('Player: ' + i);
+}
 
 /* 
  * #16
@@ -373,6 +376,7 @@ for (var i = 0; i<toyotaModels.length; i++){
 */
   var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "ramen", "sweet potato fries", "chimichanga"];
 
+}
 
 /*
  * #17
@@ -432,16 +436,3 @@ Final Boss
 */
 
 var phrase = "An apple a day keeps Alice feeling awesome!";
- 
-  
-  
-
-
-
-
-
-
-
-
-
-
