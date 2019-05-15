@@ -380,8 +380,6 @@ for (var i = 1; i < 6; i++){
     console.log(myFavFoods[i]);
   }
   
-
-
 /*
  * #17
  * Function - sumItUp
@@ -397,7 +395,17 @@ for (var i = 1; i < 6; i++){
  * Console.log your result.
 */
 
+var numArray = [4, 6, 3, 13, 45];
+var total = 0;
 
+function sumItUp(arr){
+  for(var i = 0; i < numArray.length; i++){
+    total += numArray[i];
+    console.log(total);
+  }
+}
+
+sumItUp(numArray);
 
 /*
  * #18
